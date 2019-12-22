@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/vendor/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendor/owlcarousel/assets/owl.theme.default.min.css">
+	
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media-queries.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/modal.css">
+
+	<title>BLAGO- Новости</title>
+
+</head>
+<body>
+
+	<header class="header" id="header">
+
+		<nav class="header__nav nav">
+			
+			<div class="nav__burger-btn">
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+			</div>
+
+			<div class="nav__logo">
+				<img src="assets/img/logo.png" alt="BLAGO LOGO">
+			</div>
+			<div class="nav__logo-min">
+				<img src="assets/img/logo-min.png" alt="BLAGO LOGO (min)">
+				<img src="assets/img/logo-min-text.png" alt="BLAGO LOGO-TEXT (min)">
+			</div>
+
+			<div class="nav__menu-container">
+				<ul class="nav__menu menu">
+					<li class="menu__item current">
+						<a href="" class="menu__link uppercase">
+							Главная
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							О нас
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							Новости
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							Проекты
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							Поддержать
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							Товары
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link uppercase">
+							Получить помощь
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="nav__info">
+				<p class="nav__info-time">
+					Пн-чт 9:00-17:00
+				</p>
+				<p class="nav__info-phone">
+					+375 (222) 64-99-28
+				</p>
+				<p href="" class="nav__info-call" id="modal-open">
+					Связаться
+				</p>
+
+				<div class="modal hidden">
+
+					<div class="modal-content">
+						<div class="modal-container">
+							<div class="modal-header">
+								<h2 class="modal-title">
+									Связаться с BLAGO
+								</h2>
+							</div>
+							<div class="modal-close" id="modal-close">
+								<p><i class="fas fa-times"></i></p>
+							</div>
+						</div>
+
+						<div class="modal-form">
+							<form action="" id="modal-form">
+								<div class="d-flex">
+									<div>
+										<label for="name">Ваше имя</label>
+										<input type="text" placeholder="Павел" required id="name">
+									</div>
+									<div>
+										<label for="phone">Ваш телефон</label>
+										<input type="text" placeholder="+375 (12) 345-67-89" id="phone" required>
+									</div>
+								</div>
+								<label for="messege">Ваше сообщение</label>
+								<textarea placeholder="Здравствуйте, мне нужна помощь..." id="messege" required></textarea>
+							</form>
+						</div>
+
+						<div class="modal-text">
+							<div>
+								<div class="modal-text__wrap">
+									<span>Социальные сети</span>
+								</div>
+								<ul class="modal-social">
+									<li class="modal-social__item">
+										<a href="">
+											<i class="fab fa-instagram"></i>
+										</a>
+									</li>
+									<li class="modal-social__item">
+										<a href="">
+											<i class="fab fa-vk"></i>
+										</a>
+									</li>
+									<li class="modal-social__item">
+										<a href="">
+											<i class="fab fa-telegram-plane"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<div class="modal-text__wrap">
+									<span>Адрес BLAGO</span>
+									<a href="https://yandex.by/maps/-/CGtiq8Le">г.Могилев, ул.Бирули 7</a>
+								</div>
+							</div>
+							<div>
+								<div class="modal-text__wrap">
+									<span>Наш e-mail</span>
+									<p>blago@tut.by</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>	
+
+		</nav>
+
+		
+		<div class="container">
+			<div class="page-offer">
+				<h1 class="offer-title uppercase">
+					Новости
+				</h1>
+				<p class="offer-text">
+					Последние новости проекта "БЛАГО"
+				</p>
+				<a href="" class="offer__link help-btn">
+					<img src="assets/img/header/hand.png" alt="help-hand">
+					Я хочу помочь
+				</a>
+			</div>
+		</div>
+
+	</header>
+
+	<section class="about news-page">
+		<div class="container">
+
+			<div class="about__info-1 about__info">
+				<img src="assets/img/example-img.jpg" alt="Про Благо" class="about__img-1 about__img">
+
+				<div class="about__text-1 about__text">
+					<h3>Название новости</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
+					</p>
+					<a href="" class="offer__link help-btn">
+						<i class="fas fa-play"></i>
+						Читать далее
+					</a>
+				</div>
+			</div>
+			<div class="about__info-2 about__info">
+				<img src="assets/img/example-img.jpg" alt="Про Благо" class="about__img-1 about__img">
+
+				<div class="about__text-1 about__text">
+					<h3>Название новости</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.
+					</p>
+					<a href="" class="offer__link help-btn">
+						<i class="fas fa-play"></i>
+						Читать далее
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- <div class="pagination">
+		<div class="pagination__arrow-container">
+			<a href="" class="pagination__arrow"><i class="far fa-angle-left"></i></a>
+		</div>
+		<ul class="pagination__list">
+			<li class="pagination__item">
+				<a href="" class="pagination__link current">1</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">2</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">3</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">4</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">5</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">6</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">7</a>
+			</li>
+			<li class="pagination__item">
+				<a href="" class="pagination__link">8</a>
+			</li>
+		</ul>
+		<div class="pagination__arrow-container">
+			<a href="" class="pagination__arrow"><i class="far fa-angle-right"></i></a>
+		</div>
+	</div> -->
+
+	<footer class="footer" id="footer">
+		<div class="container">
+
+			<div class="footer-box">
+
+				<div class="footer-info footer-part">
+					<p class="footer-info__text footer__text">
+						ГБОО «Благо» <br> УНП 700571930
+					</p>
+					<p class="footer-info__text footer__text">
+						Республика Беларусь <br> 212026, г. Могилев, ул. Б.Бирули 7
+					</p>
+					<p class="footer-info__text footer__text">
+						пн-чт 9:00-17.:00
+					</p>
+					<p class="footer-info__text footer__text">
+						375 (222) 64-99-28 <br> blago@tut.by
+					</p>
+				</div>
+
+				<div class="footer-support footer-part">
+					<p class="footer__text uppercase">
+						Поддержать blago
+					</p>
+					<a href="#" class="footer__link">Пожертвовать</a>
+					<a href="#" class="footer__link">Помочь вещами</a>
+				</div>
+
+				<div class="footer-projects footer-part">
+					<p class="uppercase footer__text">
+						Проекты
+					</p>
+					<a href="#" class="footer__link">Социальный центр</a>
+					<a href="#" class="footer__link">Помощь инвалидам</a>
+					<a href="#" class="footer__link">Сотрудничество</a>
+					<a href="#" class="footer__link">База Маяк надежды</a>
+					<a href="#" class="footer__link">Лагеря для особенных</a>
+					<a href="#" class="footer__link">Рождественский проект</a>
+				</div>
+
+			</div>
+
+			<div class="footer-contact">
+				<div class="footer__links d-flex">
+					<a href="">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="">
+						<i class="fab fa-telegram-plane"></i>
+					</a>
+				</div>
+				<p class="footer-legacy">
+					© 2000-2018 ГБОО «Благо» <br> Все права защищены.
+				</p>
+			</div>
+
+		</div>
+	</footer>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	<!-- owl carousel -->
+	<script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+
+	<script src="assets/scripts/main.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
